@@ -1,0 +1,11 @@
+
+// THE first step to creating anything after everything is set up is to alter the web.php folder and add a route to your new view.
+// THEN create the file in the views folder
+// You can send data from the route to the view
+// For blade language info check the laravel docs.
+// Remember to put the logic inside the controller - to create one do php artisan make:controller controllernameController
+//To create a table in the database you need to alter 
+DB_DATABASE=laravel
+DB_USERNAME=root
+DB_PASSWORD=
+in the .env file, and also create a table with the same name in phpmyadmin. After that you need to run php artisan migrate inside the project folder.
